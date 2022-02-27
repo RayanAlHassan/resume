@@ -99,7 +99,7 @@ fetch(' https://myapijson.herokuapp.com/Data')
 
 
               
-          fetch(' https://myapijson.herokuapp.com/workExperience')
+          fetch('https://myapijson.herokuapp.com/workExperience')
           .then(response => response.json())
           .then(json =>{
         
