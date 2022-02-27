@@ -1,4 +1,4 @@
-fetch(' https://myapijson.herokuapp.com//Data')
+fetch(' https://myapijson.herokuapp.com/Data')
 .then(response => response.json())
 .then(json => {
     var RH = document.getElementById('RH');
@@ -39,32 +39,10 @@ fetch(' https://myapijson.herokuapp.com//Data')
 })
 
 
-  fetch(' https://myapijson.herokuapp.com/')
-  .then(response => response.json())
-  .then(json =>{
-
-    var age = document.getElementById("ageee")
-    var originalage=` <div class=""    >
-    <div class="pb-2" >twenieghit</div>
-  </div>`
-    for(var i=0; i<json.length;i++){
-
-      var MyContentage = document.createElement("div");
-     
-    
-      var customisedContentage= originalage;// krml ma kl l elements ytl3o nafs shi
-    
-      MyContentage.className='col-sm-7'
-      MyContentage.innerHTML =customisedContentage;
-     age.appendChild(MyContentage);
-    console.log(MyContentage);
-    }
-    
-      })
 
 
 
-  fetch(' https://myapijson.herokuapp.com//aboutme')
+  fetch(' https://myapijson.herokuapp.com/aboutme')
   .then(response => response.json())
   .then(json =>{
 
@@ -121,7 +99,7 @@ fetch(' https://myapijson.herokuapp.com//Data')
 
 
               
-          fetch(' https://myapijson.herokuapp.com//workExperience')
+          fetch(' https://myapijson.herokuapp.com/workExperience')
           .then(response => response.json())
           .then(json =>{
         
