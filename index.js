@@ -1,4 +1,4 @@
-fetch(' https://myapijson.herokuapp.com/')
+fetch(' https://myapijson.herokuapp.com//Data')
 .then(response => response.json())
 .then(json => {
     var RH = document.getElementById('RH');
@@ -64,7 +64,7 @@ fetch(' https://myapijson.herokuapp.com/')
 
 
 
-  fetch(' https://myapijson.herokuapp.com/')
+  fetch(' https://myapijson.herokuapp.com//aboutme')
   .then(response => response.json())
   .then(json =>{
 
@@ -121,7 +121,7 @@ fetch(' https://myapijson.herokuapp.com/')
 
 
               
-          fetch(' https://myapijson.herokuapp.com/')
+          fetch(' https://myapijson.herokuapp.com//workExperience')
           .then(response => response.json())
           .then(json =>{
         
